@@ -26,6 +26,7 @@ define Package/hotplug2
   SECTION:=base
   CATEGORY:=Base system
   VERSION:=1.0-beta-$(PKG_RELEASE)
+  DEPENDS:=+udevtrigger
   TITLE:=Version 1.0 Dynamic device management subsystem for embedded systems
   URL:=http://isteve.bofh.cz/~isteve/hotplug2/
 endef
